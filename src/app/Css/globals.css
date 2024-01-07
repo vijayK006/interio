@@ -1,0 +1,60 @@
+a{
+color: inherit;
+text-decoration: none !important;
+}
+
+nav{
+    position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav .logo img{
+    height: 70px;
+    width: 180px;
+}
+nav ul{
+color: black;
+list-style-type: none;
+margin: 0px ;
+
+}
+
+nav ul li{
+    font-family: var(--font-montserrat-alt);
+font-weight: 500;
+color: black;
+}
+
+.banner{
+    position: relative;
+    background-image: url('../../../public/bg/bg-half-round.png');
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 700px;
+}
+
+
+.content{
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+}
+
+.content h6{}
+
+.content p{}
+
+.content h5{}
+
+
+
+.cards-bgwhite{
+    height: 200px !important;
+    background-color: white !important;
+}

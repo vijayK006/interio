@@ -1,0 +1,59 @@
+@media only screen and (max-width:600px){
+    .menu-icons{
+        font-size: 34px;
+        display: block;
+        color: #f5a40c;
+    }
+
+    nav{
+padding: 10px;
+    }
+
+nav ul{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+display: flex;
+flex-direction: column;
+padding:50px 0px;
+    }
+
+    .menu-items{
+        width: 100%;
+        transform-origin: top;
+        transform: scale(0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .toggle{
+        transform: none;
+    }
+
+nav ul li{
+    padding: 25px 5px;
+    margin: 0px 10px;
+}
+}
+
+@media only screen and (min-width:998px){
+    .menu-icons{
+display: none;
+    }
+
+nav{
+    padding: 10px 100px;
+}
+
+nav ul{
+    position: relative;
+display: flex;
+flex-direction: row;
+padding: 0px;
+}
+
+nav ul li{
+    padding: 0px 5px;
+    margin: 0px 10px;
+}
+}
+
